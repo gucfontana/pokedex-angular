@@ -1,11 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { Pokemon } from './models/pokemon';
-import { CoresBackgroundTipo } from './models/cores-background-tipo';
-import { PokeApiService } from './services/poke-api.service';
-import { converterParaTitleCase } from './util/converter-para-title-case';
-import { TipoPokemon } from './models/tipo-pokemon';
+import { Pokemon } from '../models/pokemon';
+import { CoresBackgroundTipo } from '../models/cores-background-tipo';
+import { PokeApiService } from '../services/poke-api.service';
+import { converterParaTitleCase } from '../util/converter-para-title-case';
+import { TipoPokemon } from '../models/tipo-pokemon';
 import { NgClass, NgForOf } from '@angular/common';
-
 @Component({
   selector: 'app-listagem',
   standalone: true,
